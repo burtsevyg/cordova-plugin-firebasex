@@ -37,7 +37,7 @@ matrix:
     env: CORDOVA_VERSION="9.0.0" CORDOVA_PLATFORM="browser" CORDOVA_PLATFORM_VERSION="6.0.0"
 
 before_install:
-- nvm install 8
+- nvm install --lts
 - PATH=$TRAVIS_BUILD_DIR/node_modules/.bin:$PATH ; export PATH
 - if [[ "$CORDOVA_PLATFORM" == "android" ]]; then yes | sdkmanager "build-tools;26.0.0" "platforms;android-26" ; fi
 
