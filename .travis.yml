@@ -26,7 +26,7 @@ matrix:
     - android-sdk-preview-license-.+
     - android-sdk-license-.+
     - google-gdk-license-.+
-    env: CORDOVA_VERSION="8.0.0" CORDOVA_PLATFORM="android" CORDOVA_PLATFORM_VERSION="7.1.0"
+    env: CORDOVA_VERSION="9.0.0" CORDOVA_PLATFORM="android" CORDOVA_PLATFORM_VERSION="9.0.0"
 
   - os: osx
     language: objective-c
@@ -34,7 +34,7 @@ matrix:
     env: CORDOVA_VERSION="9.0.0" CORDOVA_PLATFORM="ios" CORDOVA_PLATFORM_VERSION="6.2.0"
 
   - os: linux
-    env: CORDOVA_VERSION="9.0.0" CORDOVA_PLATFORM="browser" CORDOVA_PLATFORM_VERSION="5.0.3"
+    env: CORDOVA_VERSION="9.0.0" CORDOVA_PLATFORM="browser" CORDOVA_PLATFORM_VERSION="6.0.0"
 
 before_install:
 - nvm install 8
