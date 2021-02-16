@@ -54,12 +54,7 @@ matrix:
   - os: osx
     language: objective-c
     osx_image: xcode12.2
-    env: CORDOVA_VERSION="7.1.0" CORDOVA_PLATFORM="ios" CORDOVA_PLATFORM_VERSION="4.5.4"
-
-  - os: osx
-    language: objective-c
-    osx_image: xcode12.2
-    env: CORDOVA_VERSION="8.0.0" CORDOVA_PLATFORM="ios" CORDOVA_PLATFORM_VERSION="4.5.4"
+    env: CORDOVA_VERSION="9.0.0" CORDOVA_PLATFORM="ios" CORDOVA_PLATFORM_VERSION="4.5.4"
 
   - os: linux
     env: CORDOVA_VERSION="7.1.0" CORDOVA_PLATFORM="browser" CORDOVA_PLATFORM_VERSION="5.0.3"
